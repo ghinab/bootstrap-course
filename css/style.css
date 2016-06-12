@@ -1,7 +1,12 @@
 p, h1 {
     font-family: 'Droid Sans', sans-serif;
 }
-
+body{
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+}
 /*NAVIGATION*/
 
 .navbar {
@@ -28,9 +33,6 @@ p, h1 {
 
 .header {
     padding: 140px 0 60px 0;
-    background: url(../img/bg.jpg) no-repeat center center;
-    background-size: cover;
-    width: 100%;
     border-bottom: 2px solid #c9c9c9;
 }
 
